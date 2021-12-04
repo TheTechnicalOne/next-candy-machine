@@ -99,8 +99,7 @@ export default function Home() {
         </div>
         {connected && (
           <p className="mr-auto text-sm">
-            <span className="font-bold">Available/Minted/Total:</span>{" "}
-            {nftsData.itemsRemaining}/{nftsData.itemsRedeemed}/
+            <span className="font-bold">The Original Sol NFTs:</span>{" "}
             {nftsData.itemsAvailable}
           </p>
         )}
